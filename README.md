@@ -1,7 +1,7 @@
 # Decentraland Sportscastle For ETHDenver
 
 ![](https://i.imgur.com/j92b6NZ.png)
-Link To This Project https://gm3.github.io/dcl-sportscastle/
+Link To This Project [https://gm3.github.io/dcl-sportscastle/](https://gm3.github.io/dcl-sportscastle/)
 
 
 ## Project Overview
@@ -26,17 +26,17 @@ IRLArt is a collective of artists and art directors focused on high impact creat
 
 You can find us at:
 
-* https://twitter.com/irlart__ 
-* https://instagram.com/irlart__ 
-* https://irlunderground.com 
-* https://linktr.ee/irlvirtual
+* [https://twitter.com/irlart__](https://twitter.com/irlart__) 
+* [https://instagram.com/irlart__](https://instagram.com/irlart__) 
+* [https://irlunderground.com](https://irlunderground.com) 
+* [https://linktr.ee/irlvirtual](https://linktr.ee/irlvirtual)
 
 ## ETHDenver Call For Artists
 Over the next 6 months, Decentraland will be the primary metaverse we focus on and build in for ETHDenver, EFDevconnect, Sonic Bloom, and other high impact opportunities. Our goal in decentraland is to recreate the main conference building, the Sports Castle, at ETHDenver 2022, highlight, and showcase 100 + featured artists at the official ETHDenver Art Gallery and Auction. Artists can choose a commission from 0 - 100%, with their designated commission going to a beneficiary. This year the commission will go to Gitcoin; to benefit Art focused Public Goods.
 
 Our two calls for artists can be found here: 
-* irlunderground.com/eth-denver-gallery 
-* irlunderground.com/gitcoin
+* [irlunderground.com/eth-denver-gallery](irlunderground.com/eth-denver-gallery) 
+* [irlunderground.com/gitcoin](irlunderground.com/gitcoin)
 
 This year's panel of curators of the gallery have diverse backgrounds, spanning multiple creative initiatives around art and technology. Annie Phillips, of IRL Art, Robert Gray of IRL Art, Shivani Mitra of Museum of Crypto Art, and Jessica Angel of Art Project Decentralized.
 
@@ -65,6 +65,9 @@ In the ETHDenver gallery, we will have decentraland vinyl and printed graphics o
 
 **July**: 
 * Decentraland Showcase and Community Celebration hosted at irlunderground - Event for any holder of $MANA or DCL parcels to attend for free - Celebration and showcase of the 6 month residency
+
+If you have any questions please feel free to reach out in our discord, thank you! 
+
 
 
 
