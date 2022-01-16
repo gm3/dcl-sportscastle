@@ -35,8 +35,8 @@ You can find us at:
 Over the next 6 months, Decentraland will be the primary metaverse we focus on and build in for ETHDenver, EFDevconnect, Sonic Bloom, and other high impact opportunities. Our goal in decentraland is to recreate the main conference building, the Sports Castle, at ETHDenver 2022, highlight, and showcase 100 + featured artists at the official ETHDenver Art Gallery and Auction. Artists can choose a commission from 0 - 100%, with their designated commission going to a beneficiary. This year the commission will go to Gitcoin; to benefit Art focused Public Goods.
 
 Our two calls for artists can be found here: 
-* [irlunderground.com/eth-denver-gallery](irlunderground.com/eth-denver-gallery) 
-* [irlunderground.com/gitcoin](irlunderground.com/gitcoin)
+* [https://irlunderground.com/eth-denver-gallery](irlunderground.com/eth-denver-gallery) 
+* [https://irlunderground.com/gitcoin](irlunderground.com/gitcoin)
 
 This year's panel of curators of the gallery have diverse backgrounds, spanning multiple creative initiatives around art and technology. Annie Phillips, of IRL Art, Robert Gray of IRL Art, Shivani Mitra of Museum of Crypto Art, and Jessica Angel of Art Project Decentralized.
 
