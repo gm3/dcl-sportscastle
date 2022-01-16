@@ -44,7 +44,7 @@ In the ETHDenver gallery, we will have decentraland vinyl and printed graphics o
 
 ## ROADMAP AND MILESTONES
 **February:**
-* Add all 6 contributors to parcels -
+* Add all 6 contributors to the parcels -
 * Receive art from call for artists and begin build
 * Release promo video for DCL build and ETHDenver auction
 * Record timelapses, as well as daily live stream build sessions - hosted online through DCL Reporter and Boomboxes Twitch - hosted physically in the Art Gallery and Makerspace in the conference, during ETHDenver
