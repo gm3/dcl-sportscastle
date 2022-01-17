@@ -42,31 +42,6 @@ This year's panel of curators of the gallery have diverse backgrounds, spanning 
 
 In the ETHDenver gallery, we will have decentraland vinyl and printed graphics on a display around a large TV that will host the video with a QR code to visit the parcels. We will provide (2) VR headsets to conference attendees to experience the gallery physically and virtually within Decentraland. The conference will have over 5000 attendees physically, and thousands more can tune in virtually through GamerJibe and our potential Decentraland Gallery.
 
-## ROADMAP AND MILESTONES
-**February:**
-* Add all 6 contributors to the parcels -
-* Receive art from call for artists and begin build
-* Release promo video for DCL build and ETHDenver auction
-* Record timelapses, as well as daily live stream build sessions - hosted online through DCL Reporter and Boomboxes Twitch - hosted physically in the Art Gallery and Makerspace in the conference, during ETHDenver
-
-**March**: 
-* Yultek’s Architek.firm Exhibit - First subgrants for new builders to participate by building in DCL for the Exhibit 
-* Installation and demo at irlunderground for the entire month
-
-**April**: 
-* Earth Day Celebration Block Party in front of irlunderground 
-* Updated demo on display at irlunderground, and a demo outdoors at the block party
-
-**EFDev Connect Event**
-* Exhibition in Amsterdam Build out NFT exhibit on display at EFDevconnect - Second round of subgrants for builders, to help begin integrating gamification - Demo on display for the week at the coworking space and the exhibit at the conference
-
-**June**: 
-* Sonic Bloom Music and Arts Festival - Full festival wide metaverse build out, with gamification integrated that highlights the AR sculptures commissioned for the festival - Live streaming of various music sets from the event
-
-**July**: 
-* Decentraland Showcase and Community Celebration hosted at irlunderground - Event for any holder of $MANA or DCL parcels to attend for free - Celebration and showcase of the 6 month residency
-
-If you have any questions please feel free to reach out in our discord, thank you! 
 
 
 
