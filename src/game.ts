@@ -1,51 +1,42 @@
-/// --- Set up a system ---
 
-class RotatorSystem {
-  // this group will contain every entity that has a Transform component
-  group = engine.getComponentGroup(Transform)
+// Base
+const base = new Entity()
+base.addComponent(new GLTFShape("models/baseDarkWithCollider.glb"))
+base.addComponent(new Transform({ scale: new Vector3(2, 1, 2)}))
+engine.addEntity(base)
 
-  update(dt: number) {
-    // iterate over the entities of the group
-    for (let entity of this.group.entities) {
-      // get the Transform component of the entity
-      const transform = entity.getComponent(Transform)
 
-      // mutate the rotation
-      transform.rotate(Vector3.Up(), dt * 10)
-    }
-  }
-}
+const screenBody = new Entity()
+screenBody.addComponent(new GLTFShape("models/screen.glb"))
+screenBody.addComponent(new Transform({ position: new Vector3(16, 0.05, 16)}))
+engine.addEntity(screenBody)
 
-// Add a new instance of the system to the engine
-engine.addSystem(new RotatorSystem())
+// Screen
+const screenTransform = new Entity()
+screenTransform.addComponent(new Transform({ position: new Vector3(0, 6.15, 5) }))
+screenTransform.getComponent(Transform).rotate(Vector3.Right(), -15)
+screenTransform.setParent(screenBody)
 
-/// --- Spawner function ---
+const screen = new Entity()
+screen.addComponent(new PlaneShape())
+screen.addComponent(new Transform({ scale: new Vector3(19.2, 10.8, 1) }))
+screen.getComponent(Transform).rotate(Vector3.Up(), 180)
+screen.setParent(screenTransform)
 
-function spawnCube(x: number, y: number, z: number) {
-  // create the entity
-  const cube = new Entity()
+screenTransform.getComponent(Transform).scale.setAll(0.625) // You can change the scale of the screen here...
 
-  // add a transform to the entity
-  cube.addComponent(new Transform({ position: new Vector3(x, y, z) }))
+// Video stream link from Vimeo
+const videoClip = new VideoClip("https://player.vimeo.com/external/676023965.m3u8?s=eee56ff6be46b70a749005aa9e99a0bae3d8c447")
+const videoTexture = new VideoTexture(videoClip)
+videoTexture.play()
+videoTexture.loop = true
 
-  // add a shape to the entity
-  cube.addComponent(new BoxShape())
+// Adjust screen material to increase the brightness and clarity
+const screenMaterial = new Material()
+screenMaterial.albedoTexture = videoTexture
+screenMaterial.emissiveTexture = videoTexture
+screenMaterial.emissiveColor = Color3.White()
+screenMaterial.emissiveIntensity = 0.6
+screenMaterial.roughness = 1.0
+screen.addComponent(screenMaterial)
 
-  // add the entity to the engine
-  engine.addEntity(cube)
-
-  return cube
-}
-
-/// --- Spawn a cube ---
-
-const cube = spawnCube(8, 1, 8)
-
-cube.addComponent(
-  new OnClick(() => {
-    cube.getComponent(Transform).scale.z *= 1.1
-    cube.getComponent(Transform).scale.x *= 0.9
-
-    spawnCube(Math.random() * 8 + 1, Math.random() * 8, Math.random() * 8 + 1)
-  })
-)
