@@ -1,39 +1,50 @@
 {
   "display": {
-    "title": "DCL Scene",
-    "description": "My new Decentraland project",
-    "navmapThumbnail": "images/scene-thumbnail.png",
-    "favicon": "favicon_asset"
+    "title": "ETHDenver Sports Castle",
+    "favicon": "favicon_asset",
+    "navmapThumbnail": "scene-thumbnail.png"
   },
   "owner": "",
   "contact": {
-    "name": "author-name",
+    "name": "irlbuilder#556c",
     "email": ""
   },
   "main": "bin/game.js",
   "tags": [],
   "scene": {
     "parcels": [
-      "0,0"
+      "-43,47",
+      "-43,48",
+      "-42,47",
+      "-42,48",
+      "-42,49",
+      "-43,49"
     ],
-    "base": "0,0"
+    "base": "-43,47"
   },
-  "spawnPoints": [
-    {
-      "name": "spawn1",
-      "default": true,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "cameraTarget": {
-        "x": 8,
-        "y": 1,
-        "z": 8
-      }
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": [],
+    "teleportPosition": ""
+  },
+  "source": {
+    "version": 1,
+    "origin": "builder",
+    "projectId": "97544901-2060-4914-9bda-1853137b5011",
+    "point": {
+      "x": 0,
+      "y": 0
+    },
+    "rotation": "east",
+    "layout": {
+      "rows": 2,
+      "cols": 3
     }
-  ],
-  "requiredPermissions": [],
-  "featureToggles": {}
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "dcl-project",
+  "name": "97544901-2060-4914-9bda-1853137b5011",
   "version": "1.0.0",
   "description": "My new Decentraland project",
   "scripts": {
@@ -12,5 +12,9 @@
   },
   "devDependencies": {
     "decentraland-ecs": "latest"
+  },
+  "dependencies": {
+    "decentraland-ecs": "latest",
+    "decentraland-builder-scripts": "latest"
   }
 }

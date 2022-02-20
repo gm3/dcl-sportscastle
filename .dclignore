@@ -11,8 +11,3 @@ node_modules
 *.tsx
 Dockerfile
 dist
-README.md
-*.blend
-*.fbx
-*.zip
-*.rar
