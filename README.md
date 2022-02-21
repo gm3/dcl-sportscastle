@@ -1,6 +1,6 @@
 # Decentraland Sportscastle For ETHDenver
 
-![](https://i.imgur.com/j92b6NZ.png)
+![](https://i.imgur.com/qis0lcd.png)
 Link To This Project [https://gm3.github.io/dcl-sportscastle/](https://gm3.github.io/dcl-sportscastle/)
 
 
