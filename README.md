@@ -2,7 +2,7 @@
 
 ![](https://i.imgur.com/qis0lcd.png)
 
-Link To The Virtual Sports Castle [https://gm3.github.io/dcl-sportscastle/](https://play.decentraland.org/?island=I34qtn&position=-41%2C49&realm=dg)
+Link To The Virtual Sports Castle [https://play.decentraland.org/?island=I34qtn&position=-41%2C49&realm=dg](https://play.decentraland.org/?island=I34qtn&position=-41%2C49&realm=dg)
 
 
 ## Project Overview
