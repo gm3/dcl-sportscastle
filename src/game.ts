@@ -5,6 +5,7 @@ import { createChannel } from '../node_modules/decentraland-builder-scripts/chan
 import { createInventory } from '../node_modules/decentraland-builder-scripts/inventory'
 import Script1 from "../b88efbbf-2a9a-47b4-86e1-e38ecc2b433b/src/item"
 import * as utils from '@dcl/ecs-scene-utils'
+import Script2 from "../901e4555-8743-49bb-854c-c8b354a3e3e1/src/item"
 
 
 const sendAnalyticsEvent = (tag: any, metadata: any) => {
@@ -266,20 +267,38 @@ script1.spawn(externalLink6, {"url":"https://doingud.com/exhibition/culture-jam-
 script1.spawn(externalLink7, {"url":"https://doingud.com/exhibition/culture-jam-ethdenver-2022-exhibition-3df2a2c4-ad63-4e23-9a6d-a34be3877e55","name":"Culture Jam ETHDenver"}, createChannel(channelId, externalLink7, channelBus))
 
 
-const musicbg = new Entity()
+const radio = new Entity('radio')
+engine.addEntity(radio)
+radio.setParent(_scene)
+const transform15 = new Transform({
+  position: new Vector3(0, 0, 0),
+  rotation: new Quaternion(0, 0, 0, 1),
+  scale: new Vector3(1, 1, 1)
+})
+radio.addComponentOrReplace(transform14)
 
-// Create AudioClip object, holding audio file
-const clip = new AudioClip("sounds/music.mp3")
 
-// Create AudioSource component, referencing `clip`
-const source = new AudioSource(clip)
+const script2 = new Script2()
+script2.init(options)
+script2.spawn(radio, {"startOn":true,"loop":true,"volume":0.1,"onClickText":"Radio On/Off","onClick":[{"entityName":"radio","actionId":"toggle","values":{}}],"customStation":"https://gateway.pinata.cloud/ipfs/QmastWtdJifHK9jWbCG2t3AoGTKbjYp82FoamwZdpNhjeE"}, createChannel(channelId, radio, channelBus))
 
-// Add AudioSource component to entity
-musicbg.addComponent(source)
 
-// Play sound
-source.loop = true
 
-source.playing = true
-source.volume = .5
 
+
+// const musicbg = new Entity()
+
+// // Create AudioClip object, holding audio file
+// const clip = new AudioClip("music.mp3")
+
+// // Create AudioSource component, referencing `clip`
+// const source = new AudioSource(clip)
+
+// // Add AudioSource component to entity
+// musicbg.addComponent(source)
+
+// // Play sound
+// source.loop = true
+
+// source.playing = true
+// source.volume = 1
